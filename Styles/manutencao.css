@@ -1,0 +1,21 @@
+body{
+    background-color: var(--cor-bg-principal);
+    color: var(--cor-bg-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    font-size:clmap(3vw, 5vw, 5vw);
+    margin-top: 10vh;
+    background-color: var(--cor-bg-body);
+    
+}
+img{
+    width: 50vw;
+    height: 50vh;
+
+
+    
+}

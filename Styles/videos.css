@@ -1,0 +1,484 @@
+
+body{
+    background: var(--cor-bg-principal);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#Comprar{
+    background-color: var(--cor-bg-secundaria);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 1.2vh;
+    padding: 1%;
+    width: 40vw;
+    font-size:clamp(1rem,1rem,3rem);
+    border-radius: 0.5em;
+    margin-bottom: 1.5vh;
+    border:none;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0.5vh 0 #72193c;
+}
+#Comprar:hover{
+    background-color: var(--cor-bg-secundaria-light);
+}
+
+#Comprar a{
+    text-decoration: none;
+    color:#ffffff;
+    
+}
+
+
+
+.box-topo{
+        
+        align-self: center;
+        display:flex;
+        background:var(--cor-bg-secundaria);
+        width: 40%;
+        border-radius:10em;
+        justify-content: center;
+        margin: 0.5vh;
+    
+    }
+    .box-topo p{
+        font-size:1.5em;
+        color:var(--cor-bg-body);
+    }
+	
+
+section{
+    background:var(--cor-bg-principal);
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+   
+    
+    
+    
+    
+    
+    
+}
+
+
+#player{
+    width: 100%;
+    height: 100%;
+}
+.iframe-container{
+    display: flex;
+    width: 100%;
+    height:31.5vh;
+    align-self: center;
+    justify-self: center;
+    
+  }
+  .iframe-container iframe{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-self:center;
+    align-self: center;
+  }
+
+.small{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.small li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+        
+}
+
+.small ul{
+    
+    align-items: center;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    
+    
+    
+}
+.small p{
+    font-size:1.5rem ;
+    text-align: center;
+    color:var(--cor-bg-body);
+}
+
+.small img{
+    justify-self: center;
+      
+    width:80%;
+    
+}
+.small a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.small img:hover{
+    border: 3px solid var(--cor-bg-secundaria-light)   ;
+    border-radius: 5px;
+}
+
+
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+    justify-content: center;
+    background-color:#ffff ;
+    align-self: center;
+    
+}
+
+
+
+footer{
+    background:var(--cor-bg-principal);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+footer img{
+    width: 10%;
+}
+footer p{
+    color: var(--cor-bg-body);
+    align-self: center;
+    font-size: 1.1em;
+
+    
+}
+
+
+
+@media(min-width: 500px){
+    section{
+        height: auto;
+    }
+    .iframe-container{
+        width: 81%;
+        height: 35.5vh;
+    }
+    .small ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Comprar{
+        width: 70vw;
+    }
+   
+    
+}
+
+
+
+
+
+
+
+@media(min-width:700px){
+    .box-topo{
+        width: 30%;
+    }
+    .box-topo{
+        margin: 0;
+    }
+    section{
+        margin: 0;
+    }
+    #Comprar{
+        width: 70vw;
+    
+    }
+    #Comprar a{
+        font-size: 2.5vw;
+    }
+
+    .iframe-container{
+        width: 100%;
+        height: 61.9vh;
+        
+    }
+    .small img{
+        width:50% ;
+        height: 60%;
+    }
+    .small p{
+        font-size: 1.8em;
+
+    }
+    
+}
+
+@media(min-width:900px){
+    .box-topo{
+        width: 25%;
+    }
+    .box-topo p{
+        font-size:1.7rem;
+    }
+
+    .iframe-container{
+        height: 66.9vh;
+    }
+
+    .small p{
+        font-size:2rem ;
+    }
+    .small{
+ 
+        align-self: center;
+    }
+    .small img{
+ 
+        width: 50%;
+        height:60%;
+    }
+    footer{
+        
+        display: flex;
+        align-items: center;
+        bottom: -70%;
+        
+    }
+    footer p{
+        font-size:1.3rem;
+ 
+    
+    }
+    footer img{
+        width: 7%;
+        
+    }
+
+    
+
+}
+
+
+
+@media (min-width:1050px){
+    section{
+        width: 1100px;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        
+    }
+    .box-topo{
+        width: 20%;
+    }
+
+    .box-topo p{
+        font-size:1.8rem;
+    }
+
+
+    .small p{
+        font-size:2.5rem ;
+    }
+    .small{
+        
+        width: 100%;
+        display: flex;
+       
+        
+    }
+    .small ul{
+        
+        justify-content: center;
+        
+    }
+
+    
+    .small img{
+        justify-self: center;
+        align-self: center;
+        width: 40%;
+        height: 50%;
+    }
+    footer{
+        height: 5%;
+        bottom:-80%;
+    }
+    footer img{
+        width: 7%;
+
+    }
+
+    footer p{
+        font-size:2rem;
+        
+    
+    }
+    
+
+}
+@media( min-width:1200px){
+
+    section{
+        width: 1200px;
+        height: auto;
+ 
+    
+    }
+    .iframe-container{
+        
+        width: 800px;
+        height:450px;
+        margin: 0;
+        padding: 0;
+    }
+    .box-topo p{
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+    #fb{
+        width: 1200px;
+        display: flex;
+        align-self:center;
+    }
+    #Comprar{
+        
+        width: 400px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    #Comprar a{
+        font-size: 2rem;
+    }
+    
+
+    
+    .small{
+        width: 900px;
+        
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+    .small li{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 1200px;
+    
+    }
+    .small ul{
+         
+        
+        justify-self: center;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+        
+    }
+    
+   
+    .small p{
+        
+        font-size: 1.5em;
+        
+    }
+    .small img{
+        width: 150px;
+        height: 100px;
+        
+    }
+
+    
+    footer{
+        height:55px;
+        justify-self: center;
+        align-self: center;
+    }
+    footer p{
+        font-size: 1.5em;
+    }
+    footer img{
+        width: 5%;
+    }
+}
+
+@media(max-height:500px){
+    .box-topo{
+        display: none;
+
+    }
+
+    #player{
+        width: 100%;
+        justify-self: center;
+        align-self: center;
+        height: 100%;
+        
+
+    }
+    .small ul{
+        width: 100%;
+    }
+
+    .small li{
+        width: 100%;
+    }
+
+    .iframe-container{
+        margin: 0;
+        
+        height:80vh;
+        width: 100vw;
+
+    }
+    section{
+        margin: 0;
+        display: flex;
+        width: 100%;
+        
+        
+    }
+    #Comprar{
+        padding: 1vw;
+        margin-top:1vh;
+        font-size:1.9rem;
+        width: 50vw;
+    
+
+           }
+    footer{
+        display: none;
+    }
+}
+
+@media(min-height:600px){
+    section{
+        margin-top: 2%;
+    }
+    .box-topo{
+        margin-bottom: 2%;
+    }
+}

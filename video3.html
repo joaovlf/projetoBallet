@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/main.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/video3.css">
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2998324560271803');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=2998324560271803&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js" type='text/javascript'></script>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player;
+        
+    
+            
+                    
+            
+
+        
+        function onYouTubeIframeAPIReady() { 
+          player = new YT.Player('player', {
+            width: '100%',
+            videoId: '9CW2Dg_GiY8',
+            playerVars: { 'autoplay':1,'playsinline':1,'showinfo':0,'modestbranding':1,'fs':0,'controls':0,'disablekb':1,},
+            events: {
+              'onReady': onPlayerReady,
+              'onStateChange': onPlayerStateChange
+            }
+          });
+    
+        
+        //4. The API will call this function when the video player is ready.
+    function onPlayerReady(event) {
+         event.target.playVideo();
+         
+    }
+        }
+
+
+        function onPlayerStateChange(event) {    
+        $(document).ready() 
+   
+        }
+            
+            
+    
+
+    </script>
+    <title>3° Desafio</title>
+    <link rel="icon" href="./img/Logo-Rafa-Sales-Transparente.png">
+</head>
+<body>
+   
+    
+    <section>
+
+        <div class="box-topo">
+            <p>3° desafio</p>
+        </div>
+        <div class="iframe-container">
+            <div id="player"></div>
+          </div>
+
+        <button type="button" id="Comprar">
+            <a href="https://pay.hotmart.com/E41142317U">Quero dar o proximo passo!</a>
+        </button>
+
+            </section>
+    
+
+    <footer> 
+        <img src="./img/logo2.png" alt="logo">		
+        <p>
+            Avenida astorga 4449 - Sala 03, Umuarama - PR
+        </p>
+    </footer>
+    
+</body>
+</html>

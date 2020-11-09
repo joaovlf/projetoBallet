@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2998324560271803');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2998324560271803&ev=PageView&noscript=1"
+      /></noscript>
+      <!-- End Facebook Pixel Code -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    
+    <script>
+         
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  
+    // 3. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
+    var player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('player', {
+        width: '100%',
+        videoId: 'FJ2sPIbQc3c',
+        playerVars: { 'autoplay':1,'playsinline':1,'showinfo':1,'modestbranding':1,'fs':0,'controls':0,'disablekb':1,},
+        events: {
+          'onReady': onPlayerReady
+        }
+      });
+    
+  
+    // 4. The API will call this function when the video player is ready.
+    function onPlayerReady(event) {
+         event.target.playVideo();
+         
+    }
+        }
+
+
+
+    </script>
+
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="stylesheet" href="./Styles/videos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet">
+    
+        
+
+    <title>2° dia de dasafio</title>
+    <link rel="incon" href="./img/Logo-Rafa-Sales-Transparente.png">
+</head>
+<body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v8.0" nonce="JhFl6wYQ"></script>
+   
+    
+    <section>
+
+        <div class="box-topo">
+            <p>2° desafio</p>
+        </div>
+        <div class="alvo"></div>
+        <div class="iframe-container">
+            <div id="player"></div>
+          </div>
+
+          <button type="button" id="Comprar">
+            <a href="https://pay.hotmart.com/E41142317U">Quero dar o proximo passo!</a>
+        </button>
+          
+      
+
+
+        <div class="small"> 
+            <ul>
+                <li>
+                  <a href="./video1.html">
+                    <p>Liberado</p>
+                    <img  class="click "src="./img/miniatura1.png" alt="miniatura" width="100%" height="100%">
+                    <p>1° encontro</p>
+                  </a>
+                </li>
+
+
+                <li>
+                  <a href="./video2.html">
+                   <p> Liberado</p>
+                   <img class="click" src="./img/miniatura2.png" alt="miniatura" width="100%" height="100%">
+                    <p>2° encontro</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="./video3.html">
+                    <p>Liberado</p>
+                    <img class="click" src="./img/miniatura3.png" alt="miniatura" width="100%" height="100%">
+                    <p>3° encontro</p>
+                  </a>
+                </li>
+                
+            </ul>
+            </div>
+          
+                        
+            <div class="fb-comments"  data-mobile=”auto-detect” data-href="http://127.0.0.1:5500/video1.html" data-numposts="4"data-colorscheme="" data-width=""></div>
+        
+        
+    </section>
+    
+
+    <footer class="footer"> 
+        <img src="./img/logo2.png" alt="logo">		
+        <p>
+            Avenida astorga 4449 - Sala 03, Umuarama - PR
+        </p>
+    </footer>
+    
+    
+</body>
+</html>
